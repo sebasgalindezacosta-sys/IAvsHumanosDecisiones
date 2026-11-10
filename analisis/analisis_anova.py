@@ -4,7 +4,7 @@ ANÁLISIS PRINCIPAL — Decisiones cotidianas (IA vs. persona vs. sin recomendac
 
 Uso (desde la carpeta del repositorio):
 
-    pip install -r analisis/requirements.txt
+    pip install -r analisis/requisitos.txt
     python analisis/analisis_anova.py --participantes participantes_2026-11-20.csv --ensayos ensayos_2026-11-20.csv
 
 Para probar el script SIN datos reales (genera 90 participantes simulados):

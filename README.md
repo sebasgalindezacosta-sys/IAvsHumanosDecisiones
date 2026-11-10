@@ -87,7 +87,7 @@ En `/admin` → contraseña (`ADMIN_TOKEN`) → **Participantes** (1 fila por pe
 - **JASP / jamovi / SPSS**: abre `participantes_….csv`, filtra `incluir_basico = 1` y `excluir_criterios = 0`, y corre el ANOVA con `condicion` como factor y `pct_congruencia`, `media_hacia_meta` o `media_log_rt` como VD.
 - **Python** (recalcula todo desde los ensayos depurados y genera figuras):
   ```bash
-  pip install -r analisis/requirements.txt
+  pip install -r analisis/requisitos.txt
   python analisis/analisis_anova.py --participantes participantes_AAAA-MM-DD.csv --ensayos ensayos_AAAA-MM-DD.csv
   python analisis/analisis_anova.py --simular      # prueba con 90 participantes inventados
   ```

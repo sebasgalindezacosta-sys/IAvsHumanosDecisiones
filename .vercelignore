@@ -1,0 +1,5 @@
+# Carpetas que no hacen parte de la página web (análisis en Python, documentación, SQL de referencia).
+# Así Vercel solo despliega la app Next.js.
+analisis/
+docs/
+db/
